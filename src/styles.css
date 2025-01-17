@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --background: linear-gradient(to right, #2c3e50, #3498db);
+
+  --background-color1: #e74c3c;
+  --background-color2: black;
+  --background-color3: white;
+  --background-color4: rgb(0, 132, 255);
+  --background-color5: #74ebd5;
+
+  --background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  --primer-color: white;
+  --segundo-color: black;
+  --tercer-color: #333;
+  --cuarto-color: #666;
+  --quinto-color: #bdc3c7;
+
+  --rc-border-radius1: 4px;
+  --rc-border-radius2: 8px;
+  --rc-border-radius3: 12px;
+  --rc-border-radius4: 16px;
+
+  --rc-padding1: 0.5rem;
+  --rc-padding2: 1rem;
+  --rc-padding3: 2rem;
+  --rc-padding4: 3rem;
+  --rc-padding5: 4rem;
+}
+
+body {
+  background-color: var(--background-color5);
+  background-image: var(--background-image);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}

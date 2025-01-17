@@ -1,0 +1,20 @@
+.custom-confirm-button {
+  background-color: var(--background-color4);
+  color: var(--primer-color);
+  border-radius: var(--rc-border-radius2);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-confirm-button:hover {
+  background-color: var(--background-color1);
+}
+
+@media (max-width: 530px) {
+  .swal2-popup {
+    max-width: 300px;
+  }
+}

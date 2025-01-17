@@ -1,0 +1,14 @@
+.button {
+  padding: 10px;
+  background: var(--background);
+  color: var(--primer-color);
+  margin-top: 50px;
+  border-radius: var(--rc-border-radius2);
+  transition: all 0.3s ease;
+}
+.button:hover {
+  color: var(--background-color1);
+}
+.home {
+  margin-top: 80px;
+}

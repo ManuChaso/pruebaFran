@@ -1,0 +1,32 @@
+.cat-card {
+  border: 2px solid var(--background-color4);
+  border-radius: var(--rc-border-radius2);
+  padding: 10px;
+  text-align: center;
+}
+.cat-card:hover {
+  border: 2px solid var(--primer-color);
+}
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 20px;
+}
+
+.cat-card img {
+  max-width: 100%;
+  border-radius: var(--rc-border-radius2);
+}
+.cat-card a {
+  background: var(--background);
+  border-radius: var(--rc-border-radius2);
+  color: var(--primer-color);
+  height: 25px;
+  margin: 3px;
+  text-decoration: none;
+}
+.cat-card a:hover {
+  background-color: var(--background-color4);
+  color: var(--background-color1);
+}
